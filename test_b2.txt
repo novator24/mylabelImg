@@ -1,0 +1,37 @@
+area%
+REE-Ca-Si-P group
+0.21
+REE-Ca-F group
+3.58
+REE-F group
+0.77
+REE-Low-Mix group
+4.16
+REE-Nb-minerals
+0.72
+Nb-minerals
+0.34
+Apatite
+0.26
+Fluorite
+8.00
+Calcite
+0.98
+Dolomite
+1.29
+Quartz
+36.25
+Feldspars
+4.37
+Phyllosilicates
+13.22
+Pyroxene-Amphibole
+2.62
+Cu-Fe-sulfides
+0.05
+200 um
+BSE
+Fe-Ti-Ca-oxides
+8.74
+Zircon
+14.30
