@@ -1,0 +1,22 @@
+# Скопируйте в config.yaml и заполните значения.
+# Пароль прокси можно задать через переменную окружения PROXY_PASSWORD.
+
+proxy:
+  host: "192.168.1.10"
+  port: 22
+  user: "proxyuser"
+  password: ""  # или PROXY_PASSWORD в окружении
+
+target:
+  host: "10.0.0.23"
+  user: "team023"
+  # Ключи id_rsa / id_rsa.pub уже лежат на прокси в ~/.ssh/
+  private_key: "~/.ssh/id_rsa"
+  public_key: "~/.ssh/id_rsa.pub"
+
+ansible:
+  # extra_packages: []  # доп. pip-пакеты для ansible
+
+mimo:
+  install_url: "https://mimo.xiaomi.com/install"
+  # API-ключ провайдера задаётся после установки: mimo auth
